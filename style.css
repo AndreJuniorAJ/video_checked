@@ -1,11 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Lora&family=Roboto:ital,wght@1,300&display=swap');
+
 * {
     padding: 0;
     margin: 0;
-    
+    box-sizing: border-box;
 }
 
+header {
+    background-color: #000;
+    color: #fff;
+    padding-bottom: 30px;
+}
+
+header h1 {
+    padding-top: 25px;
+    text-align: center;
+}
+
+.video {
+    padding-top: 10px;
+}
+
+.texto {
+    line-height: 3em;
+    word-break: break-all;
+    background-color: #000000c9;
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+
 body {
-    font-family: sans-serif;
+    text-align: center;
+    font-family: 'Inclusive Sans', sans-serif;
+    font-family: 'Lora', serif;
+    
+    background-image: url(./img/artificial-intelligence-3382507_1280.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150%;
+
     font-size: 16px;
     line-height: 1.5;
     color: #333;
@@ -24,3 +58,10 @@ body {
     a:hover {
     text-decoration: underline;
     }
+
+footer {
+    text-align: center;
+    color: #faf7f7;
+    padding: 10px 0;
+    background: #000;
+}
